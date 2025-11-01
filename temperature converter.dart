@@ -68,7 +68,7 @@ class _TemperatureConverterPageState extends State<TemperatureConverterPage> {
     return Scaffold(
       backgroundColor: Colors.deepPurple.shade50,
       appBar: AppBar(
-        title: const Text('🌡️ Temperature Converter'),
+        title: const Text(' Temperature Converter'),
         centerTitle: true,
         elevation: 4,
       ),
@@ -242,7 +242,7 @@ class _TemperatureConverterPageState extends State<TemperatureConverterPage> {
     return Scaffold(
       backgroundColor: Colors.deepPurple.shade50,
       appBar: AppBar(
-        title: const Text('🌡️ Temperature Converter'),
+        title: const Text(' Temperature Converter'),
         centerTitle: true,
         elevation: 4,
       ),
@@ -290,7 +290,7 @@ class _TemperatureConverterPageState extends State<TemperatureConverterPage> {
                     ),
                     const SizedBox(height: 16),
                     DropdownButtonFormField<String>(
-                      value: _selectedConversion, // ✅ Fixed this line
+                      value: _selectedConversion,
                       items: const [
                         DropdownMenuItem(
                           value: 'Celsius to Fahrenheit',
@@ -416,7 +416,7 @@ class _TemperatureConverterPageState extends State<TemperatureConverterPage> {
     return Scaffold(
       backgroundColor: Colors.deepPurple.shade50,
       appBar: AppBar(
-        title: const Text('🌡️ Temperature Converter'),
+        title: const Text(' Temperature Converter'),
         centerTitle: true,
         elevation: 4,
       ),
@@ -464,7 +464,7 @@ class _TemperatureConverterPageState extends State<TemperatureConverterPage> {
                     ),
                     const SizedBox(height: 16),
                     DropdownButtonFormField<String>(
-                      value: _selectedConversion, // ✅ Fixed this line
+                      value: _selectedConversion,
                       items: const [
                         DropdownMenuItem(
                           value: 'Celsius to Fahrenheit',
@@ -522,3 +522,4 @@ class _TemperatureConverterPageState extends State<TemperatureConverterPage> {
   }
 
 }
+
